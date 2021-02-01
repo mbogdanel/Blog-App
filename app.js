@@ -20,8 +20,8 @@ mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => app.listen(port))
   .catch((err) => console.log(err))
-// register view engine
 
+// register view engine
 app.set('view engine', 'ejs')
 
 // middleware $ static files
